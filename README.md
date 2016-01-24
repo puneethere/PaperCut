@@ -13,9 +13,8 @@ You need the following installed and available in your $PATH:
 ##To build
 
 To build the stand-alone java application, run this task:
-
-Go to the root directory of the project and run:
 mvn compile
+
 This will resolve all required dependencies and store them in your local maven repository. 
 
 
