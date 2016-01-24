@@ -75,14 +75,14 @@ Printing Type: Single Sided
 Number of Colored Pages: 10
 Number of Black and White Pages: 15
 Cost: 4.75
-====================================
+\====================================
 JOB Details:
 Paper Type: A4
 Printing Type: Double Sided
 Number of Colored Pages: 13
 Number of Black and White Pages: 42
 Cost: 6.800000000000001
-====================================
+\====================================
 JOB Details:
 Paper Type: A4
 Printing Type: Double Sided
