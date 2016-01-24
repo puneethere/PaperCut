@@ -3,14 +3,14 @@
 
 This is a pure java project to build a stand-alone java application which takes a list of A4 print jobs and calculates the cost of each job.
 
-Prerequisites
+##Prerequisites
 
 You need the following installed and available in your $PATH:
 
 - Java 1.6 or greater (http://java.oracle.com)
 - Maven 3.0 or greater (https://maven.apache.org/)
 
-To build
+##To build
 
 To build the stand-alone java application, run this task:
 
@@ -18,7 +18,7 @@ Go to the root directory of the project and run:
 mvn compile
 This will resolve all required dependencies and store them in your local maven repository. 
 
-Sample output of the compile run
+###Sample output of the compile run
 [INFO] Scanning for projects...
 [INFO]
 [INFO] ------------------------------------------------------------------------
@@ -38,10 +38,10 @@ Sample output of the compile run
 [INFO] Final Memory: 6M/154M
 [INFO] ------------------------------------------------------------------------
 
-Unit test the application
+##Unit test the application
 mvn test
 
-Sample output of the Junit Run
+###Sample output of the Junit Run
 [INFO] Scanning for projects...
 [INFO]
 [INFO] ------------------------------------------------------------------------
@@ -112,10 +112,10 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Final Memory: 7M/154M
 [INFO] ------------------------------------------------------------------------
 
-Testing the Java Application
+##Testing the Java Application
 mvn exec:java -Dexec.args="<Complete Path of the file having list of A4 print jobs>"
 
-Sample output of the Application run
+###Sample output of the Application run
 
 [INFO] Scanning for projects...
 [INFO]
