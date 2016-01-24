@@ -23,6 +23,6 @@ This will resolve all required dependencies and store them in your local maven r
 mvn test
 
 ##Testing the Java Application
-mvn exec:java -Dexec.args="<Complete Path of the file having list of A4 print jobs>"
+mvn exec:java -Dexec.args="Complete Path of the file having list of A4 print jobs"
 
 
